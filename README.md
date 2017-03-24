@@ -1,7 +1,7 @@
-# Irnas-hardware-workflow
+# Irnas hardware workflow
 This repo represents Institute Irnas hardware design workflow and design guide.
 
-If you want to contribute to open source projects at Institute Irnas this is the starting point
+If you want to contribute to open source projects at [Institute Irnas][irnas_web] this is the starting point
 to get familiar with design flow and project structure.
 
 Several things are important when creating new hardware project.
@@ -15,16 +15,16 @@ Keeping this in mind Institute Irnas created this workflow guide, which relies o
 
 One of the main things in Open source community is documentation, which is in many cases missing from the project. Here you will find the extensive guide on how to use all features of GitHub platform to keep project clean and organized. Combining all these guides together we created the "Irnas_GitHub_hardware_workflow" which we at Irnas use to create new projects.
 
-There are several documents in this repository, and the first one to read is Irnas_GitHub_hardware_workflow. This document explains how the project evolves from an idea in someone's head to the working PCB on their desk. Next is "Irnas_GitHub_hardware_guide". It describes the folder structure of the repository, how to use git tool for tracking hardware versions, and how to use GitHub features for issue tracking in hardware. Last two are "Irnas_hardware_sch_guide" and "Irnas_hardware_pcb_goude". Thay will show the best practice how to create schematic and PCB files along with some design tips. Folder "Project" is a template for project structure.
+There are several documents in this repository, and the first one to read is ["Irnas_GitHub_hardware_workflow"][hardware_workflow]. This document explains how the project evolves from an idea in someone's head to the working PCB on their desk. Next is ["Irnas_GitHub_hardware_guide"][hardware_guide]. It describes the folder structure of the repository, how to use git tool for tracking hardware versions, and how to use GitHub features for issue tracking in hardware. Last two are ["Irnas_hardware_sch_guide"][sch_guide] and ["Irnas_hardware_pcb_guide"][pcb_guide]. Thay will show the best practice how to create schematic and PCB files along with some design tips. Folder "Project" is a template for project structure.
 
 In Project folder, you will find the schematics template we at Irnas use to provide detailed information about circuit schematics. Also some PCB tips, for getting your PCB prepared for manufacturing and assembly. BOM templates and many other useful documents.
 
 The templates will be provided for the Altium and KiCad EDA software tools, but this guide can be used with any other popular EDA tool like Eagle, OrCAD, etc.
 
-* Irnas_GitHub_hardware_workflow.md
-* Irnas_GitHub_hardware_guide.md
-* Irnas_hardware_sch_guide.md
-* Irnas_hardware_pcb_goude.md
+* [Irnas_GitHub_hardware_workflow.md][hardware_workflow]
+* [Irnas_GitHub_hardware_guide.md][hardware_guide]
+* [Irnas_hardware_sch_guide.md][sch_guide]
+* [Irnas_hardware_pcb_guide.md][pcb_guide]
 * Project
 
 
@@ -46,3 +46,10 @@ What this means is that you can use hardware, firmware, software and documentati
 
 Koruza, GoodEnoughCNC, and IRNAS are all names and marks of Institut IRNAS Race. 
 You may use these names and terms only to attribute the appropriate entity as required by the Open Licences referred to above. You may not use them in any other way and in particular, you may not use them to imply endorsement or authorization of any hardware that you design, make or sell.
+
+  [irnas_web]:  <https://www.irnas.eu>
+  [hardware_guide]: <Irnas_GitHub_hardware_guide.md>
+  [hardware_workflow]: <Irnas_GitHub_hardware_workflow.md>
+  [sch_guide]: <Irnas_hardware_sch_guide.md>
+  [pcb_guide]: <Irnas_hardware_pcb_guide.md>
+  [project]: <>
